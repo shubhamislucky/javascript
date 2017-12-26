@@ -44,7 +44,7 @@ header{
     height: 1px;
     position: absolute;
     background-color: #888;
-    margin: 13px;
+    margin-top: 13px;
 }
 #javascript{
     position: relative;
