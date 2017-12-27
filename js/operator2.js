@@ -1,7 +1,10 @@
+document.write("<br>");
+document.write("----Operators----");
+document.write("<br>");
+
 var age = 19;
 var name = 'Lucky';
 
-document.write('<br>');
 document.write(name + age);
 
 document.write('<br>');

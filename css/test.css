@@ -53,5 +53,6 @@ header{
     top: 100px;
 }
 p{
+    position: relative;
     text-align: center;
 }

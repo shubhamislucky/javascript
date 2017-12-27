@@ -12,6 +12,8 @@ document.write("<br>" + wish);
    javascript
 */
 
+///////////////////////////
+// Declaring variables
 name = 'Harsh'
 age = 17;
 ismarried = false;
