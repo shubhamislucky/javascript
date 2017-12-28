@@ -20,3 +20,37 @@ function yearsUntilRetirement(name, year){
     document.write("<br>" + name + " will retire in " + retirement + " years.");
 }
 yearsUntilRetirement('John', 1990);
+
+//////////////////////////////////////////
+// Fucntion expression and statement
+
+// Fucntion statement
+function hello1(arg){
+    // code
+}
+
+// Function expression
+var hello2 = function(arg){
+    // code
+}
+
+/* The difference between funtion statement and function expression
+    is that function expression produces immediate result(value) while
+    statement just performs an action.
+*/
+
+// Examples
+function haveFun(age){
+    if(age > 20){
+        document.write("<br>Your age is greater than 20.");
+    }else{
+        document.write("<br>Your age is less than 20.");
+    }
+}
+haveFun(43);
+
+var someFun = function(x,y){
+    var z = x+y;
+    return z;
+}
+document.write("<br>" + someFun(3,4));
