@@ -20,8 +20,8 @@ document.write("<br>" + John + "<br>");
 John.push('blue'); // adds an element to the last of array
 document.write(John);
 
-John.unshift('Mr.');
-document.write("<br>" + John); // adds an element to the beginning of the array
+John.unshift('Mr.'); // adds an element to the beginning of the array
+document.write("<br>" + John);
 
 John.pop(); // removes an element from last & returns the popped element
 John.shift(); // removes an element from the beginning
